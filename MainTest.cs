@@ -15,18 +15,19 @@ namespace QA_Auto_Testing_Framework
     class MainTest
     {
         //MainTests test = new MainTests();
+        
         public IWebDriver driver;
         private String BaseURL = "https://dashboards.insights.metrixlab.com/";
         public TestContext TestContext { get; set; }
         //System.DateTime currentdatetime = System.DateTime.Now;        
         public WebDriverWait wait;
 
-        public String currentdatetime()
+        /*public String currentdatetime()
         {
             DateTime now = DateTime.Now;
             string cdt1 = now.ToString("ddMMMMyyyy_hhmmsstt");
             return cdt1;
-        }
+        }*/
 
         public IWebElement elem;
 
@@ -34,7 +35,7 @@ namespace QA_Auto_Testing_Framework
 
         public void startBrowser()
         {
-
+            Console.WriteLine("Initializing start browser method.");
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("headless");
 
@@ -46,6 +47,7 @@ namespace QA_Auto_Testing_Framework
         [NUnit.Framework.Test]
         public void Login()
         {
+            Console.WriteLine("Initializing Login Method.");
             try
             {
                 driver.Navigate().GoToUrl(BaseURL + "/");
