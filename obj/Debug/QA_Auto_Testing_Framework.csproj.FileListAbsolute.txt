@@ -1,0 +1,16 @@
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\bin\Debug\nunit.engine.dll
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\bin\Debug\nunit.engine.api.dll
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\bin\Debug\QA_Auto_Testing_Framework.exe.config
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\bin\Debug\QA_Auto_Testing_Framework.exe
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\bin\Debug\QA_Auto_Testing_Framework.pdb
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\bin\Debug\nunit.framework.dll
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\bin\Debug\WebDriver.dll
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\bin\Debug\nunit.framework.pdb
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\bin\Debug\nunit.framework.xml
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\bin\Debug\WebDriver.xml
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\obj\Debug\QA_Auto_Testing_Framework.csprojAssemblyReference.cache
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\obj\Debug\QA_Auto_Testing_Framework.csproj.CopyComplete
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\obj\Debug\QA_Auto_Testing_Framework.exe
+C:\Users\aagarwal\Source\Repos\QA_Auto_Testing_Framework\obj\Debug\QA_Auto_Testing_Framework.pdb
