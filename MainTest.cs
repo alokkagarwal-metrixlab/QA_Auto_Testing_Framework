@@ -30,14 +30,6 @@ namespace QA_Auto_Testing_Framework
 
         public IWebElement elem;
 
-        public void screencapture()
-        {
-
-            String screenshotname = currentdatetime();
-            Screenshot ss = ((ITakesScreenshot)driver).GetScreenshot();
-            ss.SaveAsFile(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "//Screenshots1//" + screenshotname + ".Png");
-        }
-
         [SetUp]
 
         public void startBrowser()
@@ -144,8 +136,7 @@ namespace QA_Auto_Testing_Framework
 
             }
             catch (Exception ex)
-            {
-                screencapture();
+            {                
                 //return false;
                 Console.WriteLine(@"Error occurred on: " + ex.ToString());
                 Assert.IsFalse(true, "The tests have failed.");
