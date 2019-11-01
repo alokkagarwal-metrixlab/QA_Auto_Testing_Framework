@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
+
 
 namespace QA_Auto_Testing_Framework
 {
@@ -39,15 +35,16 @@ namespace QA_Auto_Testing_Framework
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("headless");
 
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(options);
             driver.Manage().Window.Maximize();
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
         }
 
-        [NUnit.Framework.Test]
+        [NUnit.Framework.Test]        
+
         public void Login()
         {
-            Console.WriteLine("Initializing Login Method.");
+            //Console.WriteLine("Initializing Login Method.");
             try
             {
                 driver.Navigate().GoToUrl(BaseURL + "/");
