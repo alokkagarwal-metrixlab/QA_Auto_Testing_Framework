@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+//using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -7,11 +8,11 @@ using OpenQA.Selenium.Support.UI;
 
 
 namespace QA_Auto_Testing_Framework
-{
+{    
     class MainTest
     {
         //MainTests test = new MainTests();
-        
+
         public IWebDriver driver;
         private String BaseURL = "https://dashboards.insights.metrixlab.com/";
         public TestContext TestContext { get; set; }
@@ -40,7 +41,7 @@ namespace QA_Auto_Testing_Framework
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
         }
 
-        [NUnit.Framework.Test]        
+        [Test]
 
         public void Login()
         {
@@ -135,7 +136,7 @@ namespace QA_Auto_Testing_Framework
 
             }
             catch (Exception ex)
-            {                
+            {
                 //return false;
                 Console.WriteLine(@"Error occurred on: " + ex.ToString());
                 Assert.IsFalse(true, "The tests have failed.");
